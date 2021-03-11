@@ -24,27 +24,63 @@ console.log(data.student_data1.marks);
 
 
 //    totalmaks=
-var total_marks = {} ;
+var total_marks = 0 ;
 
 
 
-//
-for (var property in data) {
+// //
+// for (var property in data) {
     
-    console.log(property);
-    console.log(data.student_data1.marks);
-  
-   for (var pro in data.student_data1.marks){
-       console.log(data[property])
-    //    console.log(property[pro].name);
-    //    console.log();    
-   }
+//     console.log(property["marks"]);
+//     console.log(data.student_data1.marks);
 
-    // console.log(data[pro][property])
-    // console.log(pro,":",data.marks[0]);
-    // total_marks += data.marks[0]
-}
+//     // var k = data.student_data1.marks
+//     // for (var j in property){
+//     //   console.log(property[j])
+//     // }
+//     // for (var j in property)
+//     //     {
+//     //         console.log(data.property[j]);
+//     //     }
+
+
+//     Object.keys(data.student_data1.marks[0]).forEach(function(key) {
+//       console.log(key, data.student_data1.marks[0][key]);
+//   });
+  
+    
+
+
+
+//     // console.log(data[pro][property])
+//     // console.log(pro,":",data.marks[0]);
+//     // total_marks += data.marks[0]
+// }
 // console.log(total_marks);
+
+
+//console.log
+
+for(var proprty in data){
+
+  console.log(proprty);
+console.log(data[proprty].marks[0]);
+
+// for(var i=0;i<3;i++){
+Object.keys(data[proprty].marks[0]).forEach(function(key) {
+  console.log(key,data[proprty].marks[0][key]);
+  total_marks = total_marks + parseInt(data[proprty].marks[0]); 
+});
+// console.log(total_marks);
+
+// }
+}
+
+
+var obj ={
+  "studentdata":
+}
+
 
 
 // for (var key in data) {
