@@ -34,14 +34,15 @@ for (var property in data) {
     console.log(property);
     console.log(data.student_data1.marks);
   
-   for (var pro in property){
+   for (var pro in data.student_data1.marks){
+       console.log(data[property])
     //    console.log(property[pro].name);
     //    console.log();    
    }
 
     // console.log(data[pro][property])
-    // console.log(pro,":",data.marks[0][property]);
-    // total_marks += data.marks[0][property]
+    // console.log(pro,":",data.marks[0]);
+    // total_marks += data.marks[0]
 }
 // console.log(total_marks);
 
