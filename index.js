@@ -1,9 +1,4 @@
-// const data = {
-//     name: "John Doe",
-//     age: 32,
-//     title: "Vice President of JavaScript"
-//   }
-  
+
 
 const data ={
    'student_data1': {
