@@ -1,0 +1,81 @@
+// const data = {
+//     name: "John Doe",
+//     age: 32,
+//     title: "Vice President of JavaScript"
+//   }
+  
+
+const data ={
+   'student_data1': {
+    name:'A',
+    id: 123,
+    marks:[{'hi':11,'mt':22,'en':20}]
+  },
+  'student_data2':{
+    name:'B',
+    id: 124,
+    marks:[{'hi':12,'mt':20,'en':10}]
+  },
+  'student_data3':{
+    name:'c',
+    id: 125,
+    marks:[{'hi':12,'mt':22,'en':23}]
+  },
+}
+
+console.log(data)
+console.log(data.student_data1.marks);
+  
+
+
+//    totalmaks=
+var total_marks = {} ;
+
+
+
+//
+for (var property in data) {
+   for (var pro in property){
+       console.log(property);
+    //    console.log();    
+   }
+
+    // console.log(data[pro][property])
+    // console.log(pro,":",data.marks[0][property]);
+    // total_marks += data.marks[0][property]
+}
+// console.log(total_marks);
+
+
+// for (var key in data) {
+//     if (data.hasOwnProperty(key)) {
+//        console.log(data[key].id);
+//     }
+//  }
+
+//   const jsonStr = JSON.stringify(data);
+//   const p = JSON.parse(jsonStr)
+
+
+
+
+//   const haved ={
+//         "124":[{"name":data.name,"total_marks":"100"}],
+//         "125":[{"name":data.name,"total_marks":"100"}],
+//         "126":[{"name":data.name,"total_marks":"100"}]
+        
+//   }
+
+//   const jf = JSON.stringify(haved);
+//   console.log(haved);
+
+//   const st = JSON.stringify(student_data);
+
+
+//   console.log(p);
+  
+//   console.log(jsonStr);
+
+
+
+
